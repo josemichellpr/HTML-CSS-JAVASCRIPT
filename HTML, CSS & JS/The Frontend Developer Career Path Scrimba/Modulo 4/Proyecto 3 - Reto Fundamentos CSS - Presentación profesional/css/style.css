@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /*Está línea nos las dá Google Fonts*/
+    font-size: 21px;
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+    /*Los dos líneas anteriores de 
+    código son para centrar lo que este
+    dentro de "container"*/
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 42px; 
+}
+
+h3{
+     font-size: 36px;
+}
+
+.small {
+    font-size: 16px;
+}
+ 
+h1,
+h2 {
+    font-weight: 300;
+    /*300 porque es el formato que Google le da a el formato ligero 
+    (NO negrita). Recordemos que estamos usando Google Fonts*/
+}
+
+.h1-bolder{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.h2-bolder{
+    font-size: 60px;
+    font-weight: 900; 
+    display:block;
+    /*Vaya PEPITA DE ORO con la línea anterior te ahorras el
+     <br> o crear nuevos parrafos o encabezados, para
+    ponerlos en una nueva línea*/
+}
+
+h1,h2,h3,p{
+    margin-top: 0;
+    /*Para poder manejar los espacios sin problemas
+    sobretodo con padding*/
+    margin-bottom: 0; /*Tuve que poner esta línea 
+    porque de lo contrario hace un espacio incomodo
+    (en blanco) y no se "colorea" la página completa-
+    mente.*/
+}
+
+a{
+    font-weight: 900;
+    /*Para que se remarque bien el link. Tengamos 
+    presente que en las elecciones que hicimos en 
+    Google Fonts, 900 es la NEGRITA*/
+}
+
+a:hover{
+color:#131313;
+/* Es para que cuando pase el cursor por el boton
+ o enlace, este se remarque, sea más interactivo*/
+}
+
+a:focus{
+    color:#99D930; 
+    /*Este comando es para que cuando el usuario haya 
+    hecho clic en el link, este se remarque para 
+     precisamente indicarle que ya hizo clic ahí.
+      Como cuando navegas por Google*/
+}
+
+.background-purple{
+    background: #D7D7D7;
+    padding: 100px 0; 
+}
+
+.background-pink {
+    background: #FFEAEA;
+     padding: 100px 0;  
+}
+
+.background-blue {
+    background: #EAF9FF;
+     padding: 100px 0; 
+}
+
+img{
+    padding-top: 30px
+    /*Para que no este amontanada la imagen de Sophie*/
+}
