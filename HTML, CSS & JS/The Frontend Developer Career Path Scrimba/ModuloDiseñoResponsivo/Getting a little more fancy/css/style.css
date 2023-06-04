@@ -1,0 +1,52 @@
+body{
+    font-size: 1.125rem;
+    margin: 0;
+  }
+  .container{
+    max-width: 980px;
+    margin: 0 auto;
+   }
+  .columns{
+    display: flex;
+  }
+  .choco{
+    color: #B7832F; 
+  }
+  #chocoStrong{
+    background: #312614;
+    color: white;
+    max-width: 250px;
+    text-align: justify;
+    padding: 7px;
+   }
+  h1{
+    text-align: center;
+    font-size:  3rem;
+  }
+  h2{
+    font-size: 1.5rem;
+    color: #707070;
+  }
+  .col{
+    margin: 10px;
+    text-align: justify;
+  }
+  img{
+    margin-bottom: 10px;
+  }
+  .col1{
+     width: 25%; /*Estas son las maravillosas SOLUCIONES*/
+  }
+  
+  
+  .col2 {
+     width: 50%; /*Estas son las maravillosas SOLUCIONES*/
+  }
+  
+  
+  .col3{
+     width: 75%; /*Estas son las maravillosas SOLUCIONES*/
+  }
+  
+  
+  

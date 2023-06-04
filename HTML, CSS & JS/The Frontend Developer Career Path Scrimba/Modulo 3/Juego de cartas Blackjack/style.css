@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    background-image: url('verde\ casino\ sin\ cartas.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: goldenrod;
+    font-size: 300 px;
+  }
+  #messageEl {
+    font-style: italic;
+  }
+  
+  button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*Las dos comandos anteriores
+    son para crear más espacio del 
+    botón y así centrar el texto
+    START GAME*/
+    font-weight: bold;
+    width: 200px;
+    /*El comando width (ancho) es para el 
+    botón solamente, no para el texto.*/
+    color: white;
+    border-radius: 5px;
+  }
+  #start-game {
+    background: goldenrod;
+  }
+  #new-Card {
+    background: goldenrod;
+  }

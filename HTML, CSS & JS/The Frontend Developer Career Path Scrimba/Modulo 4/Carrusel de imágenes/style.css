@@ -1,0 +1,67 @@
+.carousel {
+    max-width: 600px;
+    position: relative;/*Es para acomodar las flechitas*/
+}
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
+    display: none; /*Este es para que no se vean las imágenes que están dentro
+    de este div*/
+}
+
+.carousel .carousel-item-visible {
+    display: block; /*El guason que esta dentro de este div. Si no le 
+    pusieramos ese comando, solo se ven las flechas */
+    animation: fadeVisibility 0.5s; /* Son las animaciones, cuando se cambia
+de imagen*/
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width: 600px; /*Para que la imagen no se "alargue" demás cuando el 
+    usuario haga la página más grande o pequeña*/
+    height: auto;
+}
+
+.carousel .carousel-actions {/*En esta clase se encuentran las flechas del
+carrusel*/
+    display: flex;
+    width: 100%;
+    justify-content: space-between;/*Con este, las flechas se separan, 
+    de lo contrario, siempre estarían juntas */
+    position: absolute;/*Con este, las flechas se suben, de lo contrario
+    NO  estarian en la imagen.*/
+    top: 50%;/*Lo mismo que el anterior*/
+transform: translateY(-50%);/*Este comando es para que 
+    las flechitas esten justo en medio, con respecto al eje
+    vertical, obviamente. Nota importante: lo que pasa si 
+    quitamos el signo negativo, no FUNCIONA como esperariamos */
+}
+
+.carousel .carousel-actions button {
+    border-radius: 50px;
+    background-color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+    margin-left: 20px;
+}
+
+.carousel .carousel-actions button#carousel-button-next {
+    margin-right: 20px;   
+}
+
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

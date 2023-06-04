@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif; /*Este comando, me lo pegué de
+    la pagina de fonts Google*/
+}
+
+h1,h2,p {
+    margin-top: 0; /*Es para poder controlar los espacios con padding*/
+}
+
+h1{
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    /*border: 5px solid red;*/
+    margin-left: 150px; /*Con este comando, arrimé el título para la
+    izquierda*/
+    padding-top: 20px; 
+    
+}
+
+.h1 {
+   background: #2E354F;
+   padding: 35px 20px; /*padding de el fondo azul del encabezado */
+}
+
+.container{
+    max-width: 620px;
+    margin: 0 auto;
+    /*Línea 29 y 30 son para centrar el contenido, que esté dentro del
+    div*/
+}
+
+.section-one {
+    padding-top: 30px; /*Es un espacio para dar espacio arriba en la sección
+     uno con fondo blanco*/
+    
+}
+.section-two {
+    padding-top: 20px; /*Es un espacio para dar espacio arriba en la sección
+     dos con fondo azul (hasta abajo)*/
+   background: #2E354F; /*Color de fondo*/
+   color: #FFF; /*Color de la letra*/
+   padding-bottom: 30px;
+}
+img{
+   width: 615px; /*Ancho*/
+   padding-bottom: 10px; 
+}
+
+h2 {
+    color: #EF5839;
+    font-size: 24px;
+    
+}
+
+.btn {
+    display: inline-block; /*Para que el botón no estorbe a los elementos
+    de alrededor*/
+    padding: 12px 25px; /*12px -> top & bottom; 25 -> left & right*/
+    font-weight: bold; /*Para que sea estilo negrita la letra*/
+    text-decoration: none; /*Para que no tenga el subrayado*/
+}
+
+.btn-red {
+    background:#EF5839;
+    color:#FFF;
+}
+
+.btn-white {
+    background:#FFF;
+    color:black;
+}
+
+a:hover, a:focus { /* Es para que cuando pase el cursor por el boton
+ o enlace, este se remarque*/
+    background: aqua;
+}
+
+.links {
+   color:#EF5839; 
+}
+
+.links:hover, .links:focus {
+    color: red;
+}
+
+/*El código NO está depurado, pero está a un 95% del total, para ser una actividad de un ratito */

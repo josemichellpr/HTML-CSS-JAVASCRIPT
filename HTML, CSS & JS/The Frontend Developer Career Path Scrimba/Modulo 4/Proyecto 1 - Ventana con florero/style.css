@@ -1,0 +1,60 @@
+h1, p{
+    margin-top:0; 
+    /*Según el profe, esta instrucción es importante para
+    que tengamos pleno control de nuestros espacios y no 
+    se nos "colapse" y podamos controlar con padding*/
+}
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+    color:#104C90;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: #F1F1F1;
+    padding: 15px 25px;
+    margin-bottom: 45px;
+}
+
+.h1-padding {
+    padding: 45px 25px;
+       /*45px --> top & bottom; 25px left % right
+       Aquí siento que se me amontono o se me "colapso"*/
+}
+
+p{
+    font-size: 16px;
+}
+
+img{
+    margin: 25px 0;
+       /*25px --> top & bottom; 0 px left % right*/
+}
+
+.little-p {
+    margin: 9px 0;
+    /*9px --> top & bottom; 0 px left % right*/
+}
+
+span{
+    color: #FF8000;
+}
+
+a{
+    color: #FF8000;
+    /*El color del link*/
+}
+
+a:hover,a:focus {
+    color:purple;
+    /*Estos comandos son para que los enlaces sean mas interactivos 
+    con el usuario*/
+}

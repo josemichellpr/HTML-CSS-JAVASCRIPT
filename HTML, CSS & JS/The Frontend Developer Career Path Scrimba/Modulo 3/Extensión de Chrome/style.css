@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    /*margin es una sangría, le estamos diciendo
+    que no queremos sangría*/
+    padding: 10px;
+    /* Este comando es para hacer un espacio
+    entre el input y el botón (juntos) con el 
+    borde superior*/
+    font-family: Arial, Helvetica, sans-serif;  
+    /*Este ya lo habiamos explicado bien*/
+    min-width: 400px;
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    /*Este comando sirve para que la línea
+    del input (obviamente) está sobre todo el
+     ancho de la página*/
+     padding-left: 10px;
+     /*Este sirve para que el texto que escribimos sobre 
+     el input, tengo un espacio hacia la derecha. Se ve 
+     menos amontonado y más estético*/
+     padding-right: 10px;
+     /*Con este lo mismo que padding- left, pero en el 
+     extremo derecho, una vez que ya "llenamos" el input*/
+     box-sizing: border-box; 
+     /* Con este, el input se acopla al tamaño de la
+     página web y no la sobrepasa por el comando de la 
+     línea 14 */   
+}
+
+button{
+ padding-top: 5px;
+ /*Este comando, nos sirve para dar espacio en la parte superior 
+ del botón. Entre el borde superior y el mismo texto*/   
+ padding-bottom: 5px;
+ /*Lo mismo que padding-top, salvo que el espacio es en el fondo*/
+ font-weight: bold;
+ /*Este es para que SAVE INPUT esté en negritas*/
+ color: white;
+ /*El color de la letra --> SAVE INPUT*/   
+ background: green;
+ border-radius: 5px;
+ /*Este es para el borde del botón*/
+ /*LO LOGRÉ CON AYUDA DE MIS APUNTES :)*/
+}
+
+ul{
+/*margin-top: 20px;*/
+
+}
+
+li{
+/*color: green;*/
+
+}
+
+a{
+    color: green;
+
+}
+
+#awesomeB {
+    background-color: honeydew;
+    color: green;
+}
