@@ -50,7 +50,8 @@ function calcular_promedio(){
   
   if(materia_1>100 || materia_2>100 || materia_3>100 || materia_4>100 || materia_5>100){
     OUTPUT.innerText = "Error.Vuelve a ingresar los datos"
-    document.querySelector(".mensajeaAlumno").style.display="none" /* Esto se puso aquí para que cuando saliera este mensaje de error, se quitarán las etiquetas de "Aprobatorio" y "Reprobatorio" */
+    document.querySelector(".mensajeaAlumno").style.backgroundColor="white" 
+    document.querySelector(".mensajeaAlumno").style.color="white"
   }
   else{
     for(let i=0; i<calificaciones.length; i++){
@@ -61,11 +62,13 @@ function calcular_promedio(){
     if(promedio<70){
       MESSAGE_FOR_STUDENT.innerText=`Reprobatorio`
       document.querySelector(".mensajeaAlumno").style.backgroundColor="red"
+      document.querySelector(".mensajeaAlumno").style.color="black"
     
      }
      else{
       MESSAGE_FOR_STUDENT.innerText=`Aprobatorio`
       document.querySelector(".mensajeaAlumno").style.backgroundColor="green"
+      document.querySelector(".mensajeaAlumno").style.color="black"
 
       console.log(promedio)/* Para tener certeza de lo que hacemos */
 
@@ -76,4 +79,12 @@ function calcular_promedio(){
  /* No pondré un filtro para números menores de cero, ya que el riesgo está en alguien que quiera sacar ventaja, no viceversa */
 }
 
-/*Tiene un detalle y funciona bien */
+/*
+31/07/2023
+ALGO DE LO QUE ME PERCATE ES QUE SI USO EL SIGUIENTE COMANDO:
+document.querySelector(".container").style.display="block"
+LITERAL SE BLOQUEA Y YA NO FUNCIONA LOS ROTULOS DE "APROBATORIO"
+Y "REPROBATORIO". Una vez que entra al comando de arriba, ya no
+funcionan los antes mencionados. Por eso le puse en vez, un color
+de fondo y un color de letra blancos, ambos. 
+*/
