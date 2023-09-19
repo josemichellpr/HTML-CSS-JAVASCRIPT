@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .container{ /*Sí se aplicó el espacio que quería en la parte superior del container y fíjate como no fue necesario poner "text-center" despues de "container"*/
+            margin-top: 2em;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="container text-center"> <!--"text-center" es para que se centre horizontalmente lo que esté dentro-->
+        <button type="button" class="btn btn-primary" id="boton1">Botón 1</button>
+        <button type="button" class="btn btn-primary" id="boton2">Botón 2</button>
+        <button type="button" class="btn btn-primary" id="boton3">Botón 3</button>
+        <button type="button" class="btn btn-primary" id="boton4">Botón 4</button>
+        <div class="caja"></div><!--En "caja" se proyectan las imágenes, botones y el "Hola Mundo"-->
+   </div>
+    
+   <!--El <script> de JS de Bootstrap lo dejamos comentado porque no habrá animaciones como de carrusel o algo así, solo necesitamos CSS para estilizar los botones.-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity=" sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  -->
+    <script src="1eraActividadJsDeJab.js"></script>
+    <!--He notado en algunos tutoriales que cuando se usa la tec de Bootstrap, se pone el <style> dentro del HTML. Por eso lo he puesto de esa manera-->
+</body>
+</html>
